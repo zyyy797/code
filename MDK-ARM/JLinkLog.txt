@@ -1,0 +1,60 @@
+T58F0 000:041.834   SEGGER J-Link V6.80 Log File
+T58F0 000:042.009   DLL Compiled: May 25 2020 17:04:25
+T58F0 000:042.014   Logging started @ 2024-06-03 03:34
+T58F0 000:042.021 JLINK_SetWarnOutHandler(...)
+T58F0 000:042.030 - 0.010ms
+T58F0 000:042.040 JLINK_OpenEx(...)
+T58F0 000:043.496   Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+T58F0 000:044.933   Hardware: V7.00
+T58F0 000:044.951   S/N: 20090929
+T58F0 000:044.960   OEM: SEGGER
+T58F0 000:044.968   Feature(s): RDI,FlashDL,FlashBP,JFlash,GDBFull
+T58F0 000:045.924   TELNET listener socket opened on port 19021
+T58F0 000:046.255   WEBSRV Starting webserver
+T58F0 000:046.393   WEBSRV Webserver running on local port 19080
+T58F0 000:046.403 - 4.366ms returns "O.K."
+T58F0 000:046.423 JLINK_GetEmuCaps()
+T58F0 000:046.430 - 0.009ms returns 0x88EA5833
+T58F0 000:046.440 JLINK_TIF_GetAvailable(...)
+T58F0 000:046.604 - 0.172ms
+T58F0 000:046.623 JLINK_SetErrorOutHandler(...)
+T58F0 000:046.629 - 0.008ms
+T58F0 000:046.651 JLINK_ExecCommand("ProjectFile = "D:\CUBE\code\task1\MDK-ARM\JLinkSettings.ini"", ...). 
+T58F0 000:051.815   Ref file found at: E:\Keil\ARM\Segger\JLinkDevices.ref
+T58F0 000:051.924   XML referenced by ref file: C:\Program Files (x86)\SEGGER\JLink\JLinkDevices.xml
+T58F0 000:052.629   C:\Program Files (x86)\SEGGER\JLink\JLinkDevices.xml evaluated successfully.
+T58F0 000:070.951   Device "ARM7" selected.
+T58F0 000:071.359 - 24.721ms returns 0x00
+T58F0 000:073.250 JLINK_ExecCommand("Device = STM32G431CBTx", ...). 
+T58F0 000:075.843   Device "ARM7" selected.
+T58F0 000:076.123 - 2.861ms returns 0x00
+T58F0 000:076.133 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T58F0 000:076.144 - 0.007ms returns 0x01
+T58F0 000:076.150 JLINK_GetHardwareVersion()
+T58F0 000:076.154 - 0.006ms returns 0x11170
+T58F0 000:076.161 JLINK_GetDLLVersion()  returns 68000
+T58F0 000:076.167 JLINK_GetFirmwareString(...)
+T58F0 000:076.171 - 0.005ms
+T58F0 000:083.034 JLINK_GetDLLVersion()  returns 68000
+T58F0 000:083.050 JLINK_GetCompileDateTime()
+T58F0 000:083.054 - 0.005ms
+T58F0 000:084.542 JLINK_GetFirmwareString(...)
+T58F0 000:084.555 - 0.016ms
+T58F0 000:086.380 JLINK_GetHardwareVersion()
+T58F0 000:086.389 - 0.010ms returns 0x11170
+T58F0 000:092.059 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T58F0 000:092.563 - 0.508ms returns 0x00
+T58F0 000:092.588 JLINK_SetSpeed(5000)
+T58F0 000:092.685 - 0.101ms
+T58F0 000:092.695 JLINK_GetId()
+T58F0 000:092.833   
+  ***** Error: 
+T58F0 000:092.842   ARM7 is not supported via SWD
+T58F0 000:154.195   
+  ***** Error: 
+T58F0 000:154.220   ARM7 is not supported via SWD
+T58F0 000:154.228 - 61.535ms   returns 0x00000000
+T58F0 002:326.761 JLINK_Close()
+T58F0 002:337.909 - 11.183ms
+T58F0 002:337.945   
+T58F0 002:337.952   Closed
